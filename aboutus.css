@@ -32,8 +32,8 @@ body {
 
 /* Logo */
 .nav-logo {
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
     object-fit: cover;
     margin-right: 10px;
     padding: 4px;
@@ -306,7 +306,9 @@ img {
 
     font-size: 14px;
 
+    padding-top: 20px;
     padding-bottom: 20px;
+    border-top: 1px solid black;
 
 }
 
