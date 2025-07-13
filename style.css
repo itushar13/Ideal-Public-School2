@@ -356,15 +356,17 @@ img {
 }
 
 .button-about-us {
-    background-color: white !important;
+    background-color: maroon !important;
     transition: background 0.2s ease-out;
-    color: black;
+    color: white !important;
     border: maroon solid 2px !important;
+    border-radius: 5px;
+
 }
 
 .button-about-us:hover {
-    color: white !important;
-    background: maroon !important;
+    color: maroon !important;
+    background: white !important;
     transform: scale(1.02);
 
 }
@@ -398,9 +400,9 @@ img {
 
 .ca-h5 {
 
-    color: maroon;
+    color: white;
     font-weight: bold;
-    background-color: white;
+    background-color: maroon;
     padding: 4px;
     text-transform: uppercase;
     background-clip: content-box;
