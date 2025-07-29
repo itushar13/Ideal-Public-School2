@@ -426,13 +426,12 @@ img {
 .outercontainer {
     border-radius: 10px;
     margin: 20px;
-
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 
     max-width: 1920px;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
     border-radius: 10px;
 }
@@ -451,13 +450,13 @@ img {
 
 .gallery-section {
     flex: 1;
-    min-width: 350px;
+
     margin: 10px;
 }
 
 .updates-section {
     flex: 1;
-    min-width: 350px;
+
     margin: 10px;
 }
 
@@ -758,11 +757,22 @@ h2 {
     }
 }
 
+/* Footer start */
 .footer {
     color: #999999;
     border-radius: 10px;
     max-width: auto;
+    margin-top: 0;
     max-width: 1920px;
+
+
+}
+
+.img-fluid {
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
 }
 
 .footer .btn.btn-link {
@@ -806,15 +816,13 @@ h2 {
     }
 }
 
-
-
-
 /* Footer copyright section */
 .copyright {
 
     color: white;
 
     font-size: 14px;
+
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid black;
