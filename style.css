@@ -585,7 +585,7 @@ h2 {
 .scroll-content {
     display: flex;
     flex-direction: column;
-    animation: scrollUp 10s linear infinite;
+    animation: scrollUp 20s linear infinite;
 }
 
 .updates-scroll:hover .scroll-content {
@@ -594,11 +594,11 @@ h2 {
 
 @keyframes scrollUp {
     0% {
-        transform: translateY(75%);
+        transform: translateY(0%);
     }
 
     100% {
-        transform: translateY(0%);
+        transform: translateY(-50%);
     }
 }
 
