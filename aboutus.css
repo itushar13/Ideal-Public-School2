@@ -282,7 +282,7 @@ img {
     color: #ffffff;
     letter-spacing: 1px;
     box-shadow: none;
-    font-size: 20px;
+    transform: scale(1.05);
 }
 
 .footer .btn.btn-square {
