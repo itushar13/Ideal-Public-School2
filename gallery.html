@@ -21,15 +21,15 @@
 
             <!-- Desktop Nav Buttons -->
             <div class="d-none d-lg-flex gap-3">
-                <a class="nav-btn " href="home.html">Home</a>
+                <a class="nav-btn" href="home.html">Home</a>
                 <a class="nav-btn" href="aboutus.html">About Us</a>
                 <a class="nav-btn" href="admission.html">Admission</a>
-                <a class="nav-btn active" href="gallery.html">Gallery</a>
+                <a class="nav-btn" href="gallery.html">Gallery</a>
+                <a class="nav-btn" href="certificates.html"">Documents</a>
                 <a class="nav-btn" href="contactus.html">Contact Us</a>
             </div>
-
             <!-- Hamburger Icon for Mobile -->
-            <button class="hamburger d-lg-none" id="hamburger">
+            <button class="hamburger d-lg-none" id="hamburger" type="button" aria-label="Open navigation">
                 <span style="background-color:white;"></span>
                 <span style="background-color:white;"></span>
                 <span style="background-color:white;"></span>
@@ -39,11 +39,12 @@
 
     <!-- Sidebar Navigation for Mobile -->
     <div id="sidebar" class="sidebar">
-        <a href="home.html" class="nav-btn ">Home</a>
-        <a href="aboutus.html" class="nav-btn">About Us</a>
-        <a href="admission.html" class="nav-btn">Admission</a>
-        <a href="gallery.html" class="nav-btn active">Gallery</a>
-        <a href="contactus.html" class="nav-btn">Contact Us</a>
+        <a href="home.html" class="nav-btn" onclick="sidebarNavClose()">Home</a>
+        <a href="aboutus.html" class="nav-btn" onclick="sidebarNavClose()">About Us</a>
+        <a href="admission.html" class="nav-btn" onclick="sidebarNavClose()">Admission</a>
+        <a href="gallery.html" class="nav-btn" onclick="sidebarNavClose()">Gallery</a>
+        <a href="certificates.html" class="nav-btn"  onclick="sidebarNavClose()">Documents</a>
+        <a href="contactus.html" class="nav-btn" onclick="sidebarNavClose()">Contact Us</a>
     </div>
 
     <!-- Overlay -->

@@ -23,22 +23,22 @@
     <nav class="navbar sticky-top shadow-sm ">
         <div class="container-fluid d-flex justify-content-between align-items-center px-3">
 
-            <a class=" logo1 navbar-brand d-flex align-items-center" href="#">
+            <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="resources/logocrop_200x200.png" alt="Logo" class="nav-logo" />
                 Ideal Public School
             </a>
 
             <!-- Desktop Nav Buttons -->
-            <div class=" nav1 d-none d-lg-flex gap-3">
-                <a class="nav-btn active" href="home.html">Home</a>
+            <div class="d-none d-lg-flex gap-3">
+                <a class="nav-btn" href="home.html">Home</a>
                 <a class="nav-btn" href="aboutus.html">About Us</a>
                 <a class="nav-btn" href="admission.html">Admission</a>
                 <a class="nav-btn" href="gallery.html">Gallery</a>
+                <a class="nav-btn" href="certificates.html"">Documents</a>
                 <a class="nav-btn" href="contactus.html">Contact Us</a>
             </div>
-
             <!-- Hamburger Icon for Mobile -->
-            <button class="hamburger d-lg-none" id="hamburger">
+            <button class="hamburger d-lg-none" id="hamburger" type="button" aria-label="Open navigation">
                 <span style="background-color:white;"></span>
                 <span style="background-color:white;"></span>
                 <span style="background-color:white;"></span>
@@ -48,12 +48,14 @@
 
     <!-- Sidebar Navigation for Mobile -->
     <div id="sidebar" class="sidebar">
-        <a href="home.html" class="nav-btn active">Home</a>
-        <a href="aboutus.html" class="nav-btn">About Us</a>
-        <a href="aboutus.html" class="nav-btn">Admission</a>
-        <a href="gallery.html" class="nav-btn">Gallery</a>
-        <a href="contact.html" class="nav-btn">Contact Us</a>
+        <a href="home.html" class="nav-btn " onclick="sidebarNavClose()">Home</a>
+        <a href="aboutus.html" class="nav-btn" onclick="sidebarNavClose()">About Us</a>
+        <a href="admission.html" class="nav-btn" onclick="sidebarNavClose()">Admission</a>
+        <a href="gallery.html" class="nav-btn" onclick="sidebarNavClose()">Gallery</a>
+        <a href="certificates.html" class="nav-btn"  onclick="sidebarNavClose()">Documents</a>
+        <a href="contactus.html" class="nav-btn" onclick="sidebarNavClose()">Contact Us</a>
     </div>
+
 
     <!-- Overlay -->
     <div id="overlay" class="overlay"></div>
@@ -90,7 +92,34 @@
                 margin-left: 0;
             }
         }
+    .btnx{
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(145, 0, 0);
+            color: white;
+            border: solid;
+            border-color: maroon !important;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+            width: 130px;
+            border-radius: 20px;
+        }
+        .btnx:hover {
+            background-color: rgb(255, 255, 255);
+            color: #800000;
+        }
     </style>
+
+
+    <div>
+        <button class="btn btnx" onclick="window.open('certificates.html', '_self')"><< Back </button>
+    
+    </div>
+
 
 
 
